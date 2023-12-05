@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex: start;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.game {
+  width: 75%;
+  padding: 20px 60px;
+}
+.info-section {
+  background-color: #1B383C;
+  width: 25%;
+  height: 100%;
+  padding-top: 28px;
+  border-right: black solid 4px;
+}
+.info-section h2{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.turn{
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 30px;
+  border: solid 4px black;
+  margin: 20px 20px 0 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.turn h2{
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+}
+
+.win-info{
+  padding: 25px 35px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.win-info h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.win-info h3{
+  align-self: flex-start;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid black;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #1a1a1a;
+}
+
+.circle-R{
+  background-color: red;
+}
+
+.circle-B{
+  background-color: blue;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #1B383C;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 32px;
+  border: solid 4px black;
+}
